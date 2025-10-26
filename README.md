@@ -1,15 +1,9 @@
-Sure! Here's the complete **README.md** content in one copy-paste-friendly block:
-
----
-
-```markdown
-# Age and Gender Prediction using Deep Learning and OpenCV
+Age and Gender Prediction using Deep Learning and OpenCV
 
 This project performs real-time **Age** and **Gender** prediction using your webcam. It uses **OpenCV** for face detection and a pre-trained **Keras** model to predict the age and gender of each detected face.
 
 ---
-
-## 🚀 Features
+🚀 Features
 
 - Real-time face detection using Haar Cascade.
 - Predicts **Age** and **Gender** for each face.
@@ -17,15 +11,14 @@ This project performs real-time **Age** and **Gender** prediction using your web
 
 ---
 
-## 📦 Requirements
 
 Install required Python packages:
 
-```bash
+
 pip install -r requirements.txt
 ```
 
-**`requirements.txt` content:**
+`requirements.txt` content:
 ```
 tensorflow
 keras
@@ -35,7 +28,7 @@ numpy
 
 ---
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 Age_and_gender/
@@ -47,8 +40,7 @@ Age_and_gender/
 ```
 
 ---
-
-## 💻 How to Run
+💻 How to Run
 
 1. Clone the repository:
 ```bash
@@ -67,7 +59,7 @@ python predict.py
 
 ---
 
-## 🧠 Model Output Format
+🧠 Model Output Format
 
 The model should output:
 - Age as a float in a 2D array: `[[age]]`
@@ -84,7 +76,7 @@ Predictions:
 
 ---
 
-## ⚙️ Optional: Virtual Environment Setup
+⚙️ Optional: Virtual Environment Setup
 
 ```bash
 python -m venv tf-env
